@@ -1,9 +1,9 @@
 import os
 from playsound import playsound
-
+musicfolder=input("Enter your music folder path: ")
 class MusicPlayer:
     def __init__(self):
-        self.music_folder = input("Enter you music folder path : ")
+        self.music_folder = musicfolder
         self.playlists = {}
 
     def list_songs(self):
