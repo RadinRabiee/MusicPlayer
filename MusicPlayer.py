@@ -3,7 +3,7 @@ from playsound import playsound
 
 class MusicPlayer:
     def __init__(self):
-        self.music_folder = "path_to_your_music_folder"  # Replace with the path to your music folder
+        self.music_folder = input("Enter you music folder path : ")
         self.playlists = {}
 
     def list_songs(self):
